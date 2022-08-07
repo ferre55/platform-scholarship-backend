@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'initial',
+    'scholars'
 ]
 
 MIDDLEWARE = [
@@ -75,10 +76,23 @@ WSGI_APPLICATION = 'platform_scholarship.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+#HEROKU
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd323che9ldl8ko',
+        'USER':  'tatpgjhbjgkcwh',
+        'HOST':  'ec2-3-225-110-188.compute-1.amazonaws.com',
+        'PASSWORD': '379561e6f758810640af5712ee676c5351e410e8d1359b79ee82c65b89f7c053',
+        'PORT': 5432
     }
 }
 
