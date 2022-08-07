@@ -11,3 +11,6 @@ Las universidades interesadas podrían enviar, mediante la app, un mensaje a los
 
 La app se programó en lenguaje *Python*, utilizando el framework *Django* y *DjangoRestFramework.*
 
+![Esta es una imagen](https://media.discordapp.net/attachments/1002359867073376306/1005935138896621598/base_de_datos.png)
+
+[Enlace al video de la presentación del proyecto](https://youtu.be/nAeEZm63NOA).
